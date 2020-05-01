@@ -2,11 +2,13 @@
 **Tracking Assets inside a wifi covered area.**
 
 **Introduction.**
+
 It is always a big challenge to track and locate your moving assets in a large warehouse. Consider a big warehouse, where many moving vehicles, machinaries, etc are available. How you can locate these from a central command center? Only solution is to enable the asset to inform you about its location. In this article, we are going to develop a WiFi tag based solution which can be attached to any asset. This tag will talk to your server in a particular interval  and will inform about its location. 
 
 This tag is developed using an **ESP8266-12 (ESP-12)** wifi chip. 
 
 **Background.**
+
 There are many solutions available in the market to track your assets using wifi tags (like AirISTA, STANLEY HealthCare, etc). This article will explain you the technology behind this and also will help you to develop your own solution in a cost effective way.
 
 For development and implementation, you will require the below given softwares and hardwares.
@@ -19,6 +21,7 @@ Jumber cables
 Create an account in https://thingspeak.com/ for exposing webservice which will be cosumed by your tag.
 
 *Using the code*
+
 First thing need to do is setting up the development environment for proramming ESP8266 chip. Detailed help can be found in this [link](https://github.com/esp8266/Arduino).
 
 Once you setup the environment, we need to connect the ESP chip to the USB-TTL connector. Details are available in this [link](http://www.instructables.com/id/Getting-Started-with-the-ESP8266-ESP-12/?ALLSTEPS).
