@@ -71,5 +71,5 @@ Another challenge is the continuous power supply for the tag. Wifi connection wi
     WiFi.begin(ssid, password);
      
 
-**Points of Interest.**
+**Points of Interest..**
 This is a basic solution for wifi tracking, you can work on this to enhance with more accuracy and life.
